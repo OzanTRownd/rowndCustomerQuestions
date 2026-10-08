@@ -3,7 +3,7 @@
 This file contains verified, officially answered customer questions for the Rownd 5X CNC machine.
 AI models can consult this document to answer inbound customer inquiries.
 
-Total answered questions: 16
+Total answered questions: 23
 
 ---
 
@@ -137,7 +137,17 @@ The final specifications will be confirmed after the pre-production validation p
 
 ---
 
-## 8. [Spindle & Cutting Performance] FAQ ID: 38
+## 8. [Spindle & Cutting Performance] FAQ ID: Unassigned
+
+**Question:**
+> Can you provide actual aluminum roughing parameters using approximately a 6 mm or 1/4" carbide end mill, RPM, feed, axial depth of cut, radial engagement and material removal rate?
+
+**Official Answer:**
+We have carried out sustained machining tests at 5 mm axial depth, 2 mm radial engagement, 1,000 mm/min feed and 10,000 RPM. This corresponds to a nominal material removal rate of 10 cm³/min.
+
+---
+
+## 9. [Spindle & Cutting Performance] FAQ ID: 38
 
 **Question:**
 > Can you tell me what the usable constant-torque speed range (or VFD base frequency) for your 24,000 rpm (2-pole, I assume) spindle will be? I ask because I know your direct competitor (the upcoming Xhorse WM-100) seems to reach as low as ~1,000 rpm ,  even if effective power drops to a few hundred watts ,  so that machining titanium or low-melting-point plastics (or even tapping/reaming/boring/threading, acknowledging the limits of the form factor) isn't a problem.
@@ -147,7 +157,7 @@ We plan to use an 800 Hz spindle motor. The final VFD settings and low-speed tor
 
 ---
 
-## 9. [Cooling & Waste Management] FAQ ID: 31
+## 10. [Cooling & Waste Management] FAQ ID: 31
 
 **Question:**
 > What is the cooling system?
@@ -163,7 +173,7 @@ A mist cooling system for the cutting tool and workpiece
 
 ---
 
-## 10. [Cooling & Waste Management] FAQ ID: 43
+## 11. [Cooling & Waste Management] FAQ ID: 43
 
 **Question:**
 > How's the mist cooling waste water collection managed ?
@@ -173,7 +183,37 @@ There is a grate underneath the A- and C-axis table that catches the chips while
 
 ---
 
-## 11. [Accuracy, Repeatability & Mechanics] FAQ ID: 28
+## 12. [Accuracy, Repeatability & Mechanics] FAQ ID: Unassigned
+
+**Question:**
+> How is TCP/RTCP ,  Tool Center Point compensation handled on the 5X? Is it managed directly by the machine controller? Is the kinematic calibration of the rotary axes automated or assisted?
+
+**Official Answer:**
+Yes, an automatic routine will use a calibration sphere and the optional wireless probe to measure and compensate the rotary centers and RTCP kinematics.
+
+---
+
+## 13. [Accuracy, Repeatability & Mechanics] FAQ ID: Unassigned
+
+**Question:**
+> What are the guaranteed XYZ positioning accuracy and repeatability, B/C rotary positioning accuracy/repeatability, and simultaneous 5-axis RTCP/tool-center-point accuracy?
+
+**Official Answer:**
+Guaranteed XYZ positioning repeatability is ±0.02 mm. Our current measured simultaneous RTCP accuracy is ±0.06 mm, with improvements ongoing. These figures are distinct from finished part tolerances, which depend on the machining conditions. Both A and C axes use Easy Servo motors with 50:1 harmonic reducers. Our tests used a collet holder with 0.005 mm runout, rather than shrink fit tooling.
+
+---
+
+## 14. [Accuracy, Repeatability & Mechanics] FAQ ID: 18
+
+**Question:**
+> What type of rotary drive is used for the A and C axes?
+
+**Official Answer:**
+Both A and C axes use Easy Servo motors with 50:1 harmonic reducers.
+
+---
+
+## 15. [Accuracy, Repeatability & Mechanics] FAQ ID: 28
 
 **Question:**
 > Repeatability seems to be 20 µm. Is that what your servos (I'd guess you're not using steppers for a value proposition like this) are limited to? When Xhorse promises 10 µm instead, are they using different measurement criteria, or could their capabilities plausibly be twice as good? Perhaps a regulatory limit?
@@ -183,7 +223,7 @@ The ±20 µm repeatability is a conservative machine-level specification, not a 
 
 ---
 
-## 12. [Probing, Tool Setting & AI] FAQ ID: 34
+## 16. [Probing, Tool Setting & AI] FAQ ID: 34
 
 **Question:**
 > Will it have probing and AI programming?
@@ -217,7 +257,7 @@ AI-assisted G-code generation for selected operations, including pocketing, cont
 
 ---
 
-## 13. [Probing, Tool Setting & AI] FAQ ID: 35
+## 17. [Probing, Tool Setting & AI] FAQ ID: 35
 
 **Question:**
 > Will it have tool setting?
@@ -227,7 +267,7 @@ An automatic tool measurement probe will be included as a standard feature on ev
 
 ---
 
-## 14. [Company, Testing & Media] FAQ ID: 30
+## 18. [Company, Testing & Media] FAQ ID: 30
 
 **Question:**
 > Who is the manufacturer of your new 5 axis unit? What experience does this company have?
@@ -237,7 +277,7 @@ The Rownd 5X is designed and manufactured by Rownd Precision in Bursa, Türkiye.
 
 ---
 
-## 15. [Company, Testing & Media] FAQ ID: 36
+## 19. [Company, Testing & Media] FAQ ID: 36
 
 **Question:**
 > How many units will be tested by pro's not in  the first phase?Second phase with makers
@@ -251,13 +291,43 @@ Of these, 10 machines will be provided to selected end users for real-world test
 
 ---
 
-## 16. [Company, Testing & Media] FAQ ID: 37
+## 20. [Company, Testing & Media] FAQ ID: 37
 
 **Question:**
 > What will be the option's. Do you have real trial's on video.  Thank's
 
 **Official Answer:**
-We are currently finalizing the available packages, add-ons, and pricing. We will share detailed information about package contents and optional equipment very soon.
+Planned options include the ATC package, wireless workpiece probe, ISO20 holder sets, cutting tool sets, vises and workholding accessories, cooling equipment, camera and machine stand. We will publish the final package contents and accessory list with the campaign.
+
+---
+
+## 21. [Launch, Pricing & Delivery] FAQ ID: 44
+
+**Question:**
+> If I do the VIP deal and get early ordering, can I delay my shipment?
+
+**Official Answer:**
+Yes, we can schedule shipment for your preferred date while keeping your VIP and early ordering benefits.
+
+---
+
+## 22. [Spindle & Cutting Performance] FAQ ID: 45
+
+**Question:**
+> What are your test results and cutting parameters for machining titanium?
+
+**Official Answer:**
+We have tested Grade 5 titanium with mist cooling and achieved good results at 0.5 mm axial depth, 0.3 mm radial engagement, 1,000 mm/min feed and 10,000 RPM. These are specific test conditions, and we are continuing to evaluate performance.
+
+---
+
+## 23. [Machining Capacity & Materials] FAQ ID: 46
+
+**Question:**
+> Assuming an optimal tool holder, tool length and a 55mm ID hole, is it achievable to mill down 70mm?
+
+**Official Answer:**
+Thank you for the video suggestion! We will work on testing this soon.
 
 ---
 

@@ -25,8 +25,8 @@ rowndCustomerQuestions/
 │   ├── Grouped Questions.html             # Original source table of customer questions
 │   └── resources/                         # Original stylesheet and assets
 ├── data/
-│   ├── faq_answered.json                  # Clean JSON dataset of all 16 verified, answered questions
-│   ├── faq_all.json                       # Complete JSON dataset of all 62 questions (answered and pending)
+│   ├── faq_answered.json                  # Clean JSON dataset of all 23 verified, answered questions
+│   ├── faq_all.json                       # Complete JSON dataset of all 65 questions (answered and pending)
 │   └── faq_answered.md                    # Formatted Markdown reference of verified questions and answers
 ├── prompts/
 │   ├── system_prompt.md                   # Universal system prompt for any AI model (ChatGPT, Claude, Gemini, etc.)
