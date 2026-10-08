@@ -1,0 +1,436 @@
+[
+  {
+    "faq_id": null,
+    "group": "",
+    "question": "Delivery/export: What is the expected delivery timeline for U.S. business customers, and does the simultaneous 5-axis configuration require an export-license process similar to other current desktop 5-axis machines?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Launch, Pricing & Delivery",
+    "question": "Will the advertised ~$5,999 starting price include the 2.2 kW ISO20 spindle and 10-tool ATC? What would an “all-in-one” configuration comparable to the K1/WM-100 bundles be expected to cost?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "1",
+    "group": "Launch, Pricing & Delivery",
+    "question": "When will Rownd 5X be available for Kickstarter / pre-order?",
+    "answer": "Pre-orders for Rownd 5X are currently planned to begin in September. Official details will be announced together with the launch of the pre-order campaign.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "2",
+    "group": "Launch, Pricing & Delivery",
+    "question": "What will be the estimated price of Rownd 5X?",
+    "answer": "The final pricing has not been officially announced yet. Pricing details will be shared together with the launch of the pre-order campaign.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "3",
+    "group": "Launch, Pricing & Delivery",
+    "question": "When will Rownd 5X shipments start?",
+    "answer": "We are planning to begin shipping the first production units in Q2 2027.",
+    "is_answered": true
+  },
+  {
+    "faq_id": null,
+    "group": "CAM, Post Processors & Programming",
+    "question": "For Fusion 360 specifically, is the Manufacturing Extension required for simultaneous 5-axis machining with the Rownd 5X, or does Rownd provide an alternative workflow?",
+    "answer": "The Rownd 5X will not come with its own CAM software. You will need to use a third-party CAM program to prepare your machining operations and generate the code for the machine, with the appropriate software licence obtained separately.\n\nWe are partnering with SolidCAM, and the post-processor and machine simulation work for the Rownd 5X has already been completed. The post-processor converts your programmed toolpaths into machine-specific code, while the simulation allows you to review the machining process and check for potential collisions within CAM before running it on the machine.\n\nFusion 360 integration is also planned, but it has not yet been completed. We will share further details as this integration progresses.",
+    "is_answered": true
+  },
+  {
+    "faq_id": null,
+    "group": "CAM, Post Processors & Programming",
+    "question": "Can the complete workflow operate locally and offline, or do some functions depend on cloud services, subscriptions or paid AI credits? Are there any recurring software licence costs?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "CAM, Post Processors & Programming",
+    "question": "Does the X5 come with it's own CAM software or would I have to purchase this separately eg fusion 360.",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "CAM, Post Processors & Programming",
+    "question": "Which third-party CAM systems are officially supported? Do you already provide validated post-processors for Fusion 360, Autodesk PowerMill, hyperMILL, Siemens NX, Mastercam or SolidCAM?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "4",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will I get a compatible CAM software if I back the machine? And will that software support simultaneous 5-axis programming?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "CAM, Post Processors & Programming",
+    "question": "Does the Rownd environment provide a complete machine simulation, including stock, spindle, tool holder, rotary axes, fixtures and collision detection before machining?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "CAM, Post Processors & Programming",
+    "question": "If I import an STL or STEP model of a complex artistic and organic object, for example a highly realistic human bust within dimensions of approximately Ø200 × 180 mm, can the Rownd environment automatically generate the required simultaneous 5-axis toolpaths, or would these operations have to be programmed manually in software such as Fusion 360, hyperMILL, Siemens NX or Mastercam?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "5",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will the CAM software be free for backers forever?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "6",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will the CAM software automatically generate toolpaths for simultaneous 5-axis machining?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "7",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will I need any additional software to use all features of the machine?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "14",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will users be able to enter and run manual G-code when required?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "15",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Does the machine support true simultaneous 5axis machining with TCP-RTCPcompensation?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "21",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will an official Autodesk Fusion post processor and machine simulation model be available at launch?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "22",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Can the full simultaneous 5axis functionality be programmed directly from Fusion 360?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "26",
+    "group": "CAM, Post Processors & Programming",
+    "question": "Will the 5x kickstarter machines include a postprocessor and simulation model for HyperMill when they ship?",
+    "answer": "We aim to support major CAM platforms globally. We are currently developing post-processors and simulation models for SolidCAM and Fusion 360.\n\nFor other CAM software, including hyperMILL, we plan to provide the necessary machine configuration details and guidelines to support post-processor development.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "8",
+    "group": "Machining Capacity & Materials",
+    "question": "What is the available cutting/work area size?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "9",
+    "group": "Machining Capacity & Materials",
+    "question": "Which metals and materials can the Rownd 5X machine?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "12",
+    "group": "Machining Capacity & Materials",
+    "question": "What is the maximum cutter diameter that can be used with the ISO20 automatic tool changer?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "25",
+    "group": "Machining Capacity & Materials",
+    "question": "What is the maximum recommended workpiece weight on the rotary table?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Machining Capacity & Materials",
+    "question": "Tooling: Is the ISO20 interface fully standard, allowing third-party ISO20 holders? What are the maximum tool diameter, length and weight supported by the 10-tool ATC?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "29",
+    "group": "Machining Capacity & Materials",
+    "question": "What is the weight of the unit?",
+    "answer": "The machine weighs approximately 68 kg (150 lb). The estimated shipping weight, including the protective crate, is approximately 97 kg (214 lb).",
+    "is_answered": true
+  },
+  {
+    "faq_id": "32",
+    "group": "Machining Capacity & Materials",
+    "question": "Send all spec's?",
+    "answer": "Machine type: Fully enclosed desktop 5-axis CNC milling machine\nMachining modes: 3-axis, indexed 3+2-axis, and simultaneous 5-axis\n3-axis working area: 225 × 225 × 180 mm\n5-axis working capacity: Approximately Ø200 × 180 mm\nA-axis travel: +90° to −45°\nC-axis rotation: 360°\nSpindle power: 2.2 kW\nMaximum spindle speed: 24,000 rpm\nSpindle cooling: Liquid cooling\nTool holder: ISO20\nAutomatic tool changer: 10 tools\nTool cooling: Mist cooling\nMachine weight: Approximately 68 kg\nLinear motion: High-precision linear guides with roller carriages\nDrive system: Ground ball screws with ball nuts\nTarget positioning repeatability: ±0.02 mm\nDisplay: 13.3-inch touchscreen\nControl system: LinuxCNC-based\nPower compatibility: 110, 220 V\nTotal power: Approximately 2.8 kW\nCAM support: SolidCAM and Autodesk Fusion, with compatibility planned for other major CAM platforms\nMaterials: Engineering plastics, aluminum, brass, steel, and other machinable materials\nConstruction: Fully enclosed cabinet with bellows and stainless-steel axis protection\n\nThe final specifications will be confirmed after the pre-production validation program. Repeatability depends on the complete motion system, including the ball screws, linear guides, preload, feedback, control tuning, structural stiffness, thermal conditions, and measurement method.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "10",
+    "group": "Spindle & Cutting Performance",
+    "question": "Does the spindle have sufficient torque for moderate full-flute cutting operations without stalling?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Spindle & Cutting Performance",
+    "question": "Can you provide actual aluminum roughing parameters using approximately a 6 mm or 1/4\" carbide end mill, RPM, feed, axial depth of cut, radial engagement and material removal rate?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Spindle & Cutting Performance",
+    "question": "Is the 2.2 kW rating continuous or peak? Can you provide the spindle torque/power curve, particularly from approximately 5,000, 24,000 RPM?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "20",
+    "group": "Spindle & Cutting Performance",
+    "question": "Do you have information about spindle runout and the torque curve of the 2.2 kW  spindle?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "27",
+    "group": "Spindle & Cutting Performance",
+    "question": "Can you tell me what the usable constant-torque speed range (or VFD base frequency) for your 24,000 rpm (2-pole, I assume) spindle will be?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "38",
+    "group": "Spindle & Cutting Performance",
+    "question": "Can you tell me what the usable constant-torque speed range (or VFD base frequency) for your 24,000 rpm (2-pole, I assume) spindle will be? I ask because I know your direct competitor (the upcoming Xhorse WM-100) seems to reach as low as ~1,000 rpm ,  even if effective power drops to a few hundred watts ,  so that machining titanium or low-melting-point plastics (or even tapping/reaming/boring/threading, acknowledging the limits of the form factor) isn't a problem.",
+    "answer": "We plan to use an 800 Hz spindle motor. The final VFD settings and low-speed torque performance are still being tested. Our goal is to provide a practical speed range for titanium, engineering plastics, reaming, and boring. We will publish the verified torque and power curves once testing is complete.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "11",
+    "group": "Cooling & Waste Management",
+    "question": "Does the machine use flood cooling or mist cooling?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Cooling & Waste Management",
+    "question": "Is the 5X limited to mist coolant, or can it support flood/liquid coolant for extended aluminum machining?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "31",
+    "group": "Cooling & Waste Management",
+    "question": "What is the cooling system?",
+    "answer": "The Rownd 5X will include:\n\nA liquid-cooled spindle\nA mist cooling system for the cutting tool and workpiece",
+    "is_answered": true
+  },
+  {
+    "faq_id": "43",
+    "group": "Cooling & Waste Management",
+    "question": "How's the mist cooling waste water collection managed ?",
+    "answer": "There is a grate underneath the A- and C-axis table that catches the chips while allowing the coolant to drain through. Under the grate, there is a sloped coolant tray where the liquid collects. The collected coolant is then drained out of the machine through a drain nozzle located at the lower side of the machine.",
+    "is_answered": true
+  },
+  {
+    "faq_id": null,
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "How is TCP/RTCP ,  Tool Center Point compensation handled on the 5X? Is it managed directly by the machine controller? Is the kinematic calibration of the rotary axes automated or assisted?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "What drive system is used for the B and C axes, direct drive, harmonic reducer, etc.? What are their continuous/peak torque, encoder resolution, and measured backlash? Are mechanical brakes/clamps used for 3+2 machining?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "What ballscrew accuracy class and linear-guide type/size are used? Are all five axes closed-loop servo controlled?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "16",
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "Is the stated ±0.02 mm repeatability for the complete machine, only the linear axes, or the full 5axis system?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "What are the guaranteed XYZ positioning accuracy and repeatability, B/C rotary positioning accuracy/repeatability, and simultaneous 5-axis RTCP/tool-center-point accuracy?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "17",
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "Do you have specs for positioning accuracy, backlash, and rotary axis accuracy ?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "18",
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "What type of rotary drive is used for the A and C axes?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "19",
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "Is the machine frame cast iron, steel, alu, or another material?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "24",
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "Is there a CMM report, ballbar test, or any machining accuracy report that you can share?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "28",
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "Repeatability seems to be 20 µm. Is that what your servos (I'd guess you're not using steppers for a value proposition like this) are limited to? When Xhorse promises 10 µm instead, are they using different measurement criteria, or could their capabilities plausibly be twice as good? Perhaps a regulatory limit?",
+    "answer": "The ±20 µm repeatability is a conservative machine-level specification, not a limitation of the motors or encoders. Repeatability depends on the complete motion system, including the ball screws, linear guides, preload, feedback, control tuning, structural stiffness, thermal conditions, and measurement method. Testing and calibration are ongoing, so the final production specification may improve.",
+    "is_answered": true
+  },
+  {
+    "faq_id": null,
+    "group": "Accuracy, Repeatability & Mechanics",
+    "question": "How much of the machine setup is automated or assisted? For example: workpiece probing, work origin definition, automatic tool measurement, rotary-axis calibration, stock alignment, automatic tool changing.",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Probing, Tool Setting & AI",
+    "question": "Your website mentions “AI-Assisted Setup.” What does this AI assistance actually cover? Is it limited to machine setup and workpiece positioning, or can it also assist with: tool selection, feeds and speeds, roughing and finishing strategies, tool orientation, collision avoidance, automatic 5-axis toolpath generation?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "23",
+    "group": "Probing, Tool Setting & AI",
+    "question": "Will there be probing for automatic workpiece and tool measurement?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "34",
+    "group": "Probing, Tool Setting & AI",
+    "question": "Will it have probing and AI programming?",
+    "answer": "A workpiece probing system will be available as an optional add-on and will operate directly with the machine. It is being developed to support:\n\nAutomatic workpiece zeroing\nCamera-assisted dimensional estimation\nWorkpiece recognition\nBasic geometry detection\n\nThe AI features will be available with the first customer deliveries. Initial capabilities are planned to include:\n\nVoice commands\nAutomatic zeroing\nWorkpiece recognition\nAI-assisted G-code generation for selected operations, including pocketing, contouring, and face milling",
+    "is_answered": true
+  },
+  {
+    "faq_id": "35",
+    "group": "Probing, Tool Setting & AI",
+    "question": "Will it have tool setting?",
+    "answer": "An automatic tool measurement probe will be included as a standard feature on every machine.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "13",
+    "group": "Remote Operation & Controls",
+    "question": "Will it be possible to start and stop the machine remotely through an app?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "30",
+    "group": "Company, Testing & Media",
+    "question": "Who is the manufacturer of your new 5 axis unit? What experience does this company have?",
+    "answer": "The Rownd 5X is designed and manufactured by Rownd Precision in Bursa, Türkiye.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "36",
+    "group": "Company, Testing & Media",
+    "question": "How many units will be tested by pro's not in  the first phase?Second phase with makers",
+    "answer": "Before serial production, we plan to manufacture 20 pre-production machines and subject them to different technical and durability tests.\n\nOf these, 10 machines will be provided to selected end users for real-world testing. We will evaluate their feedback and test results, complete the necessary revisions, and then proceed to serial production.",
+    "is_answered": true
+  },
+  {
+    "faq_id": null,
+    "group": "Company, Testing & Media",
+    "question": "If possible, I would particularly appreciate seeing a complete real-world workflow demonstration, starting from an STL or STEP file of a complex organic object and showing the entire process: 3D model → stock definition → tool selection → 5-axis CAM → machine simulation and collision checking → probing/setup → machining → finished part. Such a demonstration would be considerably more useful to me than a video showing only the machining stage.",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Company, Testing & Media",
+    "question": "Most importantly, what type of user is the Rownd 5X actually designed for? Can someone with 3D modelling experience but without a professional 5-axis CAM background realistically use the machine after appropriate training, or is previous CNC/CAM expertise expected?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "37",
+    "group": "Company, Testing & Media",
+    "question": "What will be the option's. Do you have real trial's on video.  Thank's",
+    "answer": "We are currently finalizing the available packages, add-ons, and pricing. We will share detailed information about package contents and optional equipment very soon.",
+    "is_answered": true
+  },
+  {
+    "faq_id": "41",
+    "group": "Export Regulations",
+    "question": "Could you please clarify your statement that the 5X will not face the same export regulations as the 5-axis machines from China that are on Kickstarter now?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": "42",
+    "group": "Export Regulations",
+    "question": "It is an implementation och the rules from  the Nuclear Suppliers Group (NSG), specifically Item 1.B.2 (Machine Tools) of INFCIRC/254/Rev.13/Part 2. Most countries in Europe, icluding Turkey, have agreed upon these rules and have laws of their own to govern this. Why would the 5X not be affected by these rules?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Material",
+    "question": "Which materials does/will it support?",
+    "answer": null,
+    "is_answered": false
+  },
+  {
+    "faq_id": null,
+    "group": "Warranty, Spare Parts & Service",
+    "question": "What warranty will apply, what critical replacement parts will be stocked, and will owners be able to replace components such as the spindle, servos, drives, ATC and rotary assemblies with remote support?",
+    "answer": null,
+    "is_answered": false
+  }
+]
