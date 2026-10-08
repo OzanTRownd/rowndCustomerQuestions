@@ -44,7 +44,7 @@ rowndCustomerQuestions/
 If you use this project with a new AI model (such as ChatGPT, Claude, Gemini, or a local LLM), follow these steps:
 
 ### Option A: Direct Chat / Copy-Paste
-1. Open [system_prompt.md](file:///d:/vscode/rowndCustomerQuestions/prompts/system_prompt.md).
+1. Open [system_prompt.md](prompts/system_prompt.md).
 2. Copy the contents of the file and paste it as the system instructions or initial prompt into the AI model.
 3. Paste the customer's incoming email into the chat.
 4. The AI will:
@@ -84,7 +84,7 @@ When new questions are answered or updated in `Customer Questions - Grouped.xlsm
    python scripts/extract_faq.py
    ```
 3. The script will automatically regenerate:
-   - [data/faq_answered.json](file:///d:/vscode/rowndCustomerQuestions/data/faq_answered.json)
-   - [data/faq_all.json](file:///d:/vscode/rowndCustomerQuestions/data/faq_all.json)
-   - [data/faq_answered.md](file:///d:/vscode/rowndCustomerQuestions/data/faq_answered.md)
-4. Update [prompts/system_prompt.md](file:///d:/vscode/rowndCustomerQuestions/prompts/system_prompt.md) if you are exporting prompts to external web chatbots.
+   - [data/faq_answered.json](data/faq_answered.json)
+   - [data/faq_all.json](data/faq_all.json)
+   - [data/faq_answered.md](data/faq_answered.md)
+4. Update [prompts/system_prompt.md](prompts/system_prompt.md) if you are exporting prompts to external web chatbots.
